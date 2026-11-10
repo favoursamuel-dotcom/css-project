@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  background-color: #701313;
+}
+.navbar {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+}
+.nav-list {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.nav-list li {
+  display: inline-block;
+  margin: 0 20px;
+}
+.nav-list a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 40px;
+  background-color: white;
+  border-radius: 12px;
+}
+h1 {
+  color: #701313;
+  text-align: center;
+  background-color: #000000;
+  padding: 20px 40px;
+  border-radius: 15px;
+}
+h2 {
+  color: #701313;
+  text-align: center;
+}
+.hero p {
+  font-weight: bold;
+  margin-top: 15px;
+}
+video {
+  height: 200px;
+  margin-top: 10px;
+  width: 150px;
+  border-radius: 12px;
+  background-color: black;
+}
+.content-section {
+  padding: 20px 40px;
+  margin-top: 40px;
+  background-color: #000000;
+  border-radius: 10px;
+}
+.content-section p {
+  color: white;
+  margin-bottom: 20px;
+}
+.content-section h3 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.skills-list li {
+  background: gray;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+.skills-list li:hover {
+  background: #701313;
+  cursor: default;
+}
+.main-footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+  color: white;
+}
